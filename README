@@ -1,0 +1,24 @@
+Alekhya Kamana, Radhika Dhaipule, & Christian Stith
+CPSC 6050: Introduction to Graphics
+Dr. Robert Geist
+March 3, 2015
+Project 2: Show Me the Bunny!
+Description: This project displays a basic rendered version of the Stanford bunny and implements Normalized Blinn-Phong Shading, Motion Blur, Anti-Aliasing, Three-Point Lighting, Camera Movement, and VBOs.
+
+Compilation:
+		gcc bunny.c -lGL -lGLU -lglut -o bunny.out
+Execution:
+		./bunny.out
+
+Keyboard controls:
+
+	a: move camera -X
+	d: move camera +X
+	w: move camera +Y
+	s: move camera -Y
+	e: move camera -Z
+	q: move camera +Z
+	spacebar: toggle regular/motion blur views
+	x: quit the program
+
+Note: As the camera is moved, it continues to point towards the bunny.
